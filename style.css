@@ -251,7 +251,7 @@ ol,ul{
 }
 .faq_content .card-body {
 	background-color: #5957cd;
-	border-radius: 0 0 5px 5px;         
+	border-radius: 0 0 5px 5px;
 	color: #ffffff;
 	padding: 10px 15px;
 	position: relative;
@@ -820,8 +820,8 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
 /*.i-grid-expand > * { flex: 1; min-width: 1px; }*/
 
 .i-btn { position: relative; display:inline-block; cursor:pointer; border: 0; padding: 0; text-decoration:none; background: transparent; }
-    .i-btn:before { position: absolute; left: 0; top: 0; height: 50px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn_before.png");}
-    .i-btn:after { position: absolute; right: 0; top: 0; height: 50px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn_after.png");}
+    .i-btn:before { position: absolute; left: 0; top: 0; height: 50px; content: url("images/icon-btn_before.png");}
+    .i-btn:after { position: absolute; right: 0; top: 0; height: 50px; content: url("images/icon-btn_after.png");}
     .i-btn > span { display:block; margin: 0 18px; text-align: center; font-size: 16px; line-height: 50px; font-weight: 500; color: #5B0016 !important; background: linear-gradient(90deg, #fca014 1.53%, #f9d45a 100%); box-shadow: 0px 4px 4px rgba(255, 239, 194, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.25); }
     .i-btn img { display: inline-block; margin-bottom: -3px; margin-right: 10px; }
     .i-btn:hover { text-decoration:none !important; }
@@ -829,8 +829,8 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
     .i-btn_large { padding:13px 35px; font-size:16px; font-weight: 700; }*/
     .i-btn-transparent {  }
         .i-btn-transparent > span { border-top: 1px solid #fbb631; border-bottom: 1px solid #fbb631; color: #fff !important; background: transparent; box-shadow: none; }
-        .i-btn-transparent:before { position: absolute; left: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn-transparent_before.png");}
-        .i-btn-transparent:after { position: absolute; right: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn-transparent_after.png");}
+        .i-btn-transparent:before { position: absolute; left: 0; top: 0; content: url("images/icon-btn-transparent_before.png");}
+        .i-btn-transparent:after { position: absolute; right: 0; top: 0; content: url("images/icon-btn-transparent_after.png");}
 
 .i-modal { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); overflow:auto; z-index:100; }
     .i-modal__wrap { position:relative; cursor:default; max-width: 400px; margin:40px auto; background:#fff; border-radius:5px; }
@@ -883,14 +883,14 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
 .b-index-content {}
     .b-index-content__1 { }
         .b-index-content__calculate { position: relative; margin-top: 20px; margin-bottom: 20px; }
-            .b-index-content__calculate:before { position: absolute; left: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-calculate_before.png"); }
-            .b-index-content__calculate:after { position: absolute; right: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-calculate_after.png"); }
+            .b-index-content__calculate:before { position: absolute; left: 0; top: 0; content: url("images/icon-calculate_before.png"); }
+            .b-index-content__calculate:after { position: absolute; right: 0; top: 0; content: url("images/icon-calculate_after.png"); }
             .b-index-content__calculate > span:first-child { position: absolute; left: 50%; top: -1px; margin-left: -15px; width: 30px; height: 2px; background: #fff; }
             .b-index-content__calculate > span:last-child { position: absolute; left: 50%; bottom: -6px; margin-left: -25px; width: 50px; height: 14px; background: #5b0016; text-align: center; }
             /*.b-index-content__calculate > span:last-child { position: absolute; left: 50%; bottom: -1px; margin-left: -15px; width: 30px; height: 2px; background: linear-gradient(90deg, #FD9F12 1.53%, #FAD85F 100%); }*/
             .b-index-content__calculate > div { margin-left: 18px; margin-right: 18px; padding:0; border-top: 1px solid #C2002E; border-bottom: 1px solid #C2002E; display: flex; align-items: center; justify-content: center; }
-                .b-index-content__calculate > div:before { position: absolute; left: -21px; top: -1px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-calculate-arrow_before.png"); }
-                .b-index-content__calculate > div:after { position: absolute; right: -21px; top: -1px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-calculate-arrow_after.png"); }
+                .b-index-content__calculate > div:before { position: absolute; left: -21px; top: -1px; content: url("images/icon-calculate-arrow_before.png"); }
+                .b-index-content__calculate > div:after { position: absolute; right: -21px; top: -1px; content: url("images/icon-calculate-arrow_after.png"); }
                 .b-index-content__calculate > div > span:first-child { font-size: 25px; line-height: 48px; font-weight: 600; color: #fbb631; font-family: 'SF UI Display'; }
                 /*.b-index-content__calculate > div > span:last-child { font-size: 12px; line-height: 48px; font-weight: 400; color: #C2002E; flex-grow: 1; text-align: right; }*/
             .odometer.odometer-auto-theme { color: #fbb631; background: transparent; font-family: 'SF UI Display'; }
@@ -902,16 +902,16 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
             .b-index-content__connected .id { font-size: 10px; line-height: 12px; font-weight: 400; text-transform: uppercase; color: #fff; }
     .b-index-content__2 { }
         .b-index-content__menu { position: relative; margin-top: 60px; margin-bottom: 80px; }
-            .b-index-content__menu:before { position: absolute; left: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn-transparent-red_before.png"); }
-            .b-index-content__menu:after { position: absolute; right: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn-transparent-red_after.png"); }
+            .b-index-content__menu:before { position: absolute; left: 0; top: 0; content: url("images/icon-btn-transparent-red_before.png"); }
+            .b-index-content__menu:after { position: absolute; right: 0; top: 0; content: url("images/icon-btn-transparent-red_after.png"); }
                 .b-index-content__menu span { cursor: pointer; }
                 .b-index-content__menu > div { margin-left: 18px; margin-right: 18px; padding:0; font-size: 10px; line-height: 38px; font-weight: normal; border-top: 1px solid #C2002E; border-bottom: 1px solid #C2002E; display: flex; align-items: center; justify-content: space-between;}
-                .b-index-content__menu > div:before { position: absolute; left: 50%; bottom: 0; margin-left: -13px; margin-bottom: -55px; width: 52px; height: 26px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-calculate-arrow_after.png"); transform: rotate(90deg); }
+                .b-index-content__menu > div:before { position: absolute; left: 50%; bottom: 0; margin-left: -13px; margin-bottom: -55px; width: 52px; height: 26px; content: url("images/icon-calculate-arrow_after.png"); transform: rotate(90deg); }
             .b-index-content__menu-center { position: absolute; left: 50%; top: 0; margin-left: -31px; width: 62px; text-align: center; border-left: 1px solid #C2002E; border-right: 1px solid #C2002E; background: #5b0016; }
                 .b-index-content__menu-center > span { position: relative; display: block; width: 100%; height: 100%; padding-top: 0; line-height: 15px; }
                 .b-index-content__menu-center > span > img { display: block; margin-left: auto; margin-right: auto; }
-                    .b-index-content__menu-center > span:before { position: absolute; left: -1px; top: -22px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-menu_top.png"); }
-                    .b-index-content__menu-center > span:after { position: absolute; right: -1px; bottom: -22px; content: url("https://tothetron.com/modules/site/main/assets/images/icon-menu_bottom.png"); }
+                    .b-index-content__menu-center > span:before { position: absolute; left: -1px; top: -22px; content: url("images/icon-menu_top.png"); }
+                    .b-index-content__menu-center > span:after { position: absolute; right: -1px; bottom: -22px; content: url("images/icon-menu_bottom.png"); }
     .b-index-content__3 { }
         .b-index-content__calc-title { position: relative; text-align: center; }
             .b-index-content__calc-title:before { position: absolute; left: -300px; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/bg-block-title.svg"); width: 329px; height: 68px; }
@@ -946,8 +946,8 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
                 .b-block__body-list > li .value { font-weight: 400; }
                 .b-block__body-list > li .address { position: relative; color: #fff; }
                     .b-block__body-list > li .address:hover { text-decoration: none; }
-                    .b-block__body-list > li .address:before { position: absolute; left: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn-transparent-red_before.png"); }
-                    .b-block__body-list > li .address:after { position: absolute; right: 0; top: 0; content: url("https://tothetron.com/modules/site/main/assets/images/icon-btn-transparent-red_after.png"); }
+                    .b-block__body-list > li .address:before { position: absolute; left: 0; top: 0; content: url("images/icon-btn-transparent-red_before.png"); }
+                    .b-block__body-list > li .address:after { position: absolute; right: 0; top: 0; content: url("images/icon-btn-transparent-red_after.png"); }
                         .b-block__body-list > li .address > span { margin-left: 18px; margin-right: 18px; padding:0; font-size: 10px; line-height: 38px; font-weight: normal; border-top: 1px solid #C2002E; border-bottom: 1px solid #C2002E; display: flex; align-items: center; justify-content: space-between; }
         .b-block__body-text {}
             .b-block__body-text p { margin-bottom: 15px; }
@@ -1018,6 +1018,9 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
         .b-block:after { right: -260px; }
         .b-block2:before { left: -260px; }
         .b-block2:after { right: -260px; }
+        
+    .b-block2:before { left: -300px; }
+    .b-block2:after { right: -300px; }
         .b-block__title {}
             .b-block__title > div { max-width: 160px;}
 }
