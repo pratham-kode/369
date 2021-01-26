@@ -821,6 +821,9 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
     .i-grid > * { padding-left: 10px; }
 /*.i-grid-expand > * { flex: 1; min-width: 1px; }*/
 
+
+
+
 .i-btn { position: relative; display:inline-block; cursor:pointer; border: 0; padding: 0; text-decoration:none; background: transparent; }
     .i-btn:before { position: absolute; left: 0; top: 0; height: 50px; content: url("images/icon-btn_before.png");}
     .i-btn:after { position: absolute; right: 0; top: 0; height: 50px; content: url("images/icon-btn_after.png");}
