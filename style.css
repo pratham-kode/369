@@ -1076,3 +1076,8 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 2; color: #fff; }
     .i-w-auto\@l { width: auto !important; }
     .i-w-expand\@l { flex: 1; min-width: 1px; }
 }
+.warning{
+    text-align: center;
+    font-size: 12px;
+    color: #fabb38;
+}
